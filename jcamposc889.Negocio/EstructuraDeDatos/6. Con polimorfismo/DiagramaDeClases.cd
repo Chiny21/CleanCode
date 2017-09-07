@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="jcamposc889.Negocio.EstructuraDeDatos.ConPolimorfismo.DatosParaLaInversion">
+    <Position X="0.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>IAAABIAAAAIAQAAAAAAAAAIAAAgAAAgCAgAAAAAAAQQ=</HashCode>
+      <FileName>EstructuraDeDatos\6. Con polimorfismo\Parameter Objects\DatosParaLaInversion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jcamposc889.Negocio.EstructuraDeDatos.ConPolimorfismo.DatosParaLaInversionConTratamiento">
+    <Position X="2.75" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>IAAABIAAAAAAAAAAAAAAAAAAAAAAAAgAAgAAAAAAAAA=</HashCode>
+      <FileName>EstructuraDeDatos\6. Con polimorfismo\Parameter Objects\DatosParaLaInversionConTratamiento.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jcamposc889.Negocio.EstructuraDeDatos.ConPolimorfismo.DatosParaLaInversionSinTratamiento">
+    <Position X="5.75" Y="1" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>IAAABIAAAAAAAAAAAAAAAAAAAAAAAAgAAgAAAAAAAAA=</HashCode>
+      <FileName>EstructuraDeDatos\6. Con polimorfismo\Parameter Objects\DatosParaLaInversionSinTratamiento.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jcamposc889.Negocio.EstructuraDeDatos.ConPolimorfismo.PropiedadesDeLaInversion">
+    <Position X="9" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>IAAABIAAAAQAAAAAAAAAAAAAAAAAAAgAAgCAAAAAAQA=</HashCode>
+      <FileName>EstructuraDeDatos\6. Con polimorfismo\Parameter Objects\PropiedadesDeLaInversion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jcamposc889.Negocio.EstructuraDeDatos.ConPolimorfismo.CodigoDeReferenciaParaInversion">
+    <Position X="0.5" Y="4.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EstructuraDeDatos\6. Con polimorfismo\Objects\CodigoDeReferenciaParaInversion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jcamposc889.Negocio.EstructuraDeDatos.ConPolimorfismo.ImpuestoPagadoConTratamiento">
+    <Position X="3.25" Y="4.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>EstructuraDeDatos\6. Con polimorfismo\Objects\ImpuestoPagadoConTratamiento.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jcamposc889.Negocio.EstructuraDeDatos.ConPolimorfismo.ImpuestoPagadoSinTratamiento">
+    <Position X="6" Y="4.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>EstructuraDeDatos\6. Con polimorfismo\Objects\ImpuestoPagadoSinTratamiento.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jcamposc889.Negocio.EstructuraDeDatos.ConPolimorfismo.Inversion">
+    <Position X="8.75" Y="4.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAQAAAQ=</HashCode>
+      <FileName>EstructuraDeDatos\6. Con polimorfismo\Objects\Inversion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jcamposc889.Negocio.EstructuraDeDatos.ConPolimorfismo.RendimientoPorDescuentoConTratamiento">
+    <Position X="0.5" Y="6.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>EstructuraDeDatos\6. Con polimorfismo\Objects\RendimientoPorDescuentoConTratamiento.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jcamposc889.Negocio.EstructuraDeDatos.ConPolimorfismo.RendimientoPorDescuentoSinTratamiento">
+    <Position X="3.75" Y="6.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>EstructuraDeDatos\6. Con polimorfismo\Objects\RendimientoPorDescuentoSinTratamiento.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jcamposc889.Negocio.EstructuraDeDatos.ConPolimorfismo.TasaBrutaConTratamiento">
+    <Position X="7" Y="6.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>EstructuraDeDatos\6. Con polimorfismo\Objects\TasaBrutaConTratamiento.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jcamposc889.Negocio.EstructuraDeDatos.ConPolimorfismo.TasaBrutaSinTratamiento">
+    <Position X="9.25" Y="6.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>EstructuraDeDatos\6. Con polimorfismo\Objects\TasaBrutaSinTratamiento.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jcamposc889.Negocio.EstructuraDeDatos.ConPolimorfismo.TasaNetaConTratamiento">
+    <Position X="0.5" Y="8.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>EstructuraDeDatos\6. Con polimorfismo\Objects\TasaNetaConTratamiento.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jcamposc889.Negocio.EstructuraDeDatos.ConPolimorfismo.TasaNetaSinTratamiento">
+    <Position X="2.75" Y="8.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>EstructuraDeDatos\6. Con polimorfismo\Objects\TasaNetaSinTratamiento.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jcamposc889.Negocio.EstructuraDeDatos.ConPolimorfismo.ValorTransadoBrutoConTratamiento">
+    <Position X="5" Y="8.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>EstructuraDeDatos\6. Con polimorfismo\Objects\ValorTransadoBrutoConTratamiento.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

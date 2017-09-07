@@ -1,0 +1,268 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{50BBF812-B1B1-4F81-91D3-5D39F2C6E658}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>jcamposc889.Negocio.UnitTests</RootNamespace>
+    <AssemblyName>jcamposc889.Negocio.UnitTests</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+    <ReferencePath>$(ProgramFiles)\Common Files\microsoft shared\VSTT\$(VisualStudioVersion)\UITestExtensionPackages</ReferencePath>
+    <IsCodedUITest>False</IsCodedUITest>
+    <TestProjectType>UnitTest</TestProjectType>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="NSubstitute, Version=1.10.0.0, Culture=neutral, PublicKeyToken=92dd2e9066daa5ca, processorArchitecture=MSIL">
+      <HintPath>..\packages\NSubstitute.1.10.0.0\lib\net45\NSubstitute.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+  </ItemGroup>
+  <Choose>
+    <When Condition="('$(VisualStudioVersion)' == '10.0' or '$(VisualStudioVersion)' == '') and '$(TargetFrameworkVersion)' == 'v3.5'">
+      <ItemGroup>
+        <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+      </ItemGroup>
+    </When>
+    <Otherwise>
+      <ItemGroup>
+        <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework">
+          <Private>False</Private>
+        </Reference>
+      </ItemGroup>
+    </Otherwise>
+  </Choose>
+  <ItemGroup>
+    <Compile Include="CodigosDeReferencia\1. Como un procedimiento\Tests.cs" />
+    <Compile Include="CodigosDeReferencia\5. Con tell don%27t ask\Año\ComoTexto_Tests.cs" />
+    <Compile Include="CodigosDeReferencia\5. Con tell don%27t ask\CodigoDeReferencia\ComoTexto_Tests.cs" />
+    <Compile Include="CodigosDeReferencia\5. Con tell don%27t ask\DiaComoTexto\Formateado_Tests.cs" />
+    <Compile Include="CodigosDeReferencia\5. Con tell don%27t ask\Dia\ComoTexto_Tests.cs" />
+    <Compile Include="CodigosDeReferencia\5. Con tell don%27t ask\DigitoVerificador\ComoTexto_Tests.cs" />
+    <Compile Include="CodigosDeReferencia\5. Con tell don%27t ask\Fecha\Formateado_Tests.cs" />
+    <Compile Include="CodigosDeReferencia\5. Con tell don%27t ask\MesComoTexto\Formateado_Tests.cs" />
+    <Compile Include="CodigosDeReferencia\5. Con tell don%27t ask\Mes\ComoTexto_Tests.cs" />
+    <Compile Include="CodigosDeReferencia\5. Con tell don%27t ask\Requerimiento\ComoTexto_Tests.cs" />
+    <Compile Include="CodigosDeReferencia\4. Con parameter object\Año\ComoTexto_Tests.cs" />
+    <Compile Include="CodigosDeReferencia\4. Con parameter object\CodigoDeReferencia\ComoTexto_Tests.cs" />
+    <Compile Include="CodigosDeReferencia\4. Con parameter object\DiaComoTexto\Formateado_Tests.cs" />
+    <Compile Include="CodigosDeReferencia\4. Con parameter object\Dia\ComoTexto_Tests.cs" />
+    <Compile Include="CodigosDeReferencia\4. Con parameter object\DigitoVerificador\ComoTexto_Tests.cs" />
+    <Compile Include="CodigosDeReferencia\4. Con parameter object\Fecha\Formateado_Tests.cs" />
+    <Compile Include="CodigosDeReferencia\4. Con parameter object\MesComoTexto\Formateado_Tests.cs" />
+    <Compile Include="CodigosDeReferencia\4. Con parameter object\Mes\ComoTexto_Tests.cs" />
+    <Compile Include="CodigosDeReferencia\4. Con parameter object\Requerimiento\ComoTexto_Tests.cs" />
+    <Compile Include="CodigosDeReferencia\3. Con objetos\Año\ComoTexto_Tests.cs" />
+    <Compile Include="CodigosDeReferencia\3. Con objetos\CodigoDeReferencia\ComoTexto_Tests.cs" />
+    <Compile Include="CodigosDeReferencia\2. Con funciones\Tests.cs" />
+    <Compile Include="CodigosDeReferencia\3. Con objetos\DiaComoTexto\Formateado_Tests.cs" />
+    <Compile Include="CodigosDeReferencia\3. Con objetos\Dia\ComoTexto_Tests.cs" />
+    <Compile Include="CodigosDeReferencia\3. Con objetos\DigitoVerificador\ComoTexto_Tests.cs" />
+    <Compile Include="CodigosDeReferencia\3. Con objetos\Fecha\Formateado_Tests.cs" />
+    <Compile Include="CodigosDeReferencia\3. Con objetos\MesComoTexto\Formateado_Tests.cs" />
+    <Compile Include="CodigosDeReferencia\3. Con objetos\Mes\ComoTexto_Tests.cs" />
+    <Compile Include="CodigosDeReferencia\3. Con objetos\Requerimiento\ComoTexto_Tests.cs" />
+    <Compile Include="EstructuraDeDatos\6. Con polimorfismo\Calculos\CodigoDeReferencia_Tests.cs" />
+    <Compile Include="EstructuraDeDatos\6. Con polimorfismo\Calculos\FechaDeValor_Tests.cs" />
+    <Compile Include="EstructuraDeDatos\6. Con polimorfismo\Calculos\FechaDeVencimiento_Tests.cs" />
+    <Compile Include="EstructuraDeDatos\6. Con polimorfismo\Calculos\ImpuestoPagado_Tests.cs" />
+    <Compile Include="EstructuraDeDatos\6. Con polimorfismo\Calculos\RendimientoPorDescuento_Tests.cs" />
+    <Compile Include="EstructuraDeDatos\6. Con polimorfismo\Calculos\TasaBruta_Tests.cs" />
+    <Compile Include="EstructuraDeDatos\6. Con polimorfismo\Calculos\TasaNeta_Tests.cs" />
+    <Compile Include="EstructuraDeDatos\6. Con polimorfismo\Calculos\ValorTransadoBruto_Tests.cs" />
+    <Compile Include="EstructuraDeDatos\6. Con polimorfismo\CodigoDeReferenciaParaInversion\ComoTexto_Tests.cs" />
+    <Compile Include="EstructuraDeDatos\6. Con polimorfismo\ImpuestoPagado360\ComoNumero_Tests.cs" />
+    <Compile Include="EstructuraDeDatos\6. Con polimorfismo\ImpuestoPagadoConTratamiento\ComoNumero_Tests.cs" />
+    <Compile Include="EstructuraDeDatos\6. Con polimorfismo\ImpuestoPagadoSinTratamiento\ComoNumero_Tests.cs" />
+    <Compile Include="EstructuraDeDatos\6. Con polimorfismo\RendimientoPorDescuento360\ComoNumero_Tests.cs" />
+    <Compile Include="EstructuraDeDatos\6. Con polimorfismo\RendimientoPorDescuentoConTratamiento\ComoNumero_Tests.cs" />
+    <Compile Include="EstructuraDeDatos\6. Con polimorfismo\RendimientoPorDescuentoSinTratamiento\ComoNumero_Tests.cs" />
+    <Compile Include="EstructuraDeDatos\6. Con polimorfismo\TasaBruta360\ComoNumero_Tests.cs" />
+    <Compile Include="EstructuraDeDatos\6. Con polimorfismo\TasaBrutaConTratamiento\ComoNumero_Tests.cs" />
+    <Compile Include="EstructuraDeDatos\6. Con polimorfismo\TasaBrutaSinTratamiento\ComoNumero_Tests.cs" />
+    <Compile Include="EstructuraDeDatos\6. Con polimorfismo\TasaNeta360\ComoNumero_Tests.cs" />
+    <Compile Include="EstructuraDeDatos\6. Con polimorfismo\TasaNetaConTratamiento\ComoNumero_Tests.cs" />
+    <Compile Include="EstructuraDeDatos\6. Con polimorfismo\TasaNetaSinTratamiento\ComoNumero_Tests.cs" />
+    <Compile Include="EstructuraDeDatos\6. Con polimorfismo\ValorTransadoBruto360\ComoNumero_Tests.cs" />
+    <Compile Include="EstructuraDeDatos\6. Con polimorfismo\ValorTransadoBrutoConTratamiento\ComoNumero_Tests.cs" />
+    <Compile Include="EstructuraDeDatos\5. Con tell don%27t ask\Calculos\CodigoDeReferencia_Tests.cs" />
+    <Compile Include="EstructuraDeDatos\5. Con tell don%27t ask\Calculos\FechaDeValor_Tests.cs" />
+    <Compile Include="EstructuraDeDatos\5. Con tell don%27t ask\Calculos\FechaDeVencimiento_Tests.cs" />
+    <Compile Include="EstructuraDeDatos\5. Con tell don%27t ask\Calculos\ImpuestoPagado_Tests.cs" />
+    <Compile Include="EstructuraDeDatos\5. Con tell don%27t ask\Calculos\RendimientoPorDescuento_Tests.cs" />
+    <Compile Include="EstructuraDeDatos\5. Con tell don%27t ask\Calculos\TasaBruta_Tests.cs" />
+    <Compile Include="EstructuraDeDatos\5. Con tell don%27t ask\Calculos\TasaNeta_Tests.cs" />
+    <Compile Include="EstructuraDeDatos\5. Con tell don%27t ask\Calculos\ValorTransadoBruto_Tests.cs" />
+    <Compile Include="EstructuraDeDatos\5. Con tell don%27t ask\CodigoDeReferenciaParaInversion\ComoTexto_Tests.cs" />
+    <Compile Include="EstructuraDeDatos\5. Con tell don%27t ask\ImpuestoPagadoConTratamiento\ComoNumero_Tests.cs" />
+    <Compile Include="EstructuraDeDatos\5. Con tell don%27t ask\ImpuestoPagadoSinTratamiento\ComoNumero_Tests.cs" />
+    <Compile Include="EstructuraDeDatos\5. Con tell don%27t ask\RendimientoPorDescuentoConTratamiento\ComoNumero_Tests.cs" />
+    <Compile Include="EstructuraDeDatos\5. Con tell don%27t ask\RendimientoPorDescuentoSinTratamiento\ComoNumero_Tests.cs" />
+    <Compile Include="EstructuraDeDatos\5. Con tell don%27t ask\TasaBrutaConTratamiento\ComoNumero_Tests.cs" />
+    <Compile Include="EstructuraDeDatos\5. Con tell don%27t ask\TasaBrutaSinTratamiento\ComoNumero_Tests.cs" />
+    <Compile Include="EstructuraDeDatos\5. Con tell don%27t ask\TasaNetaConTratamiento\ComoNumero_Tests.cs" />
+    <Compile Include="EstructuraDeDatos\5. Con tell don%27t ask\TasaNetaSinTratamiento\ComoNumero_Tests.cs" />
+    <Compile Include="EstructuraDeDatos\5. Con tell don%27t ask\ValorTransadoBrutoConTratamiento\ComoNumero_Tests.cs" />
+    <Compile Include="EstructuraDeDatos\4. Con parameter object\Calculos\CodigoDeReferencia_Tests.cs" />
+    <Compile Include="EstructuraDeDatos\4. Con parameter object\Calculos\FechaDeValor_Tests.cs" />
+    <Compile Include="EstructuraDeDatos\4. Con parameter object\Calculos\FechaDeVencimiento_Tests.cs" />
+    <Compile Include="EstructuraDeDatos\4. Con parameter object\Calculos\ImpuestoPagado_Tests.cs" />
+    <Compile Include="EstructuraDeDatos\4. Con parameter object\Calculos\RendimientoPorDescuento_Tests.cs" />
+    <Compile Include="EstructuraDeDatos\4. Con parameter object\Calculos\TasaBruta_Tests.cs" />
+    <Compile Include="EstructuraDeDatos\4. Con parameter object\Calculos\TasaNeta_Tests.cs" />
+    <Compile Include="EstructuraDeDatos\4. Con parameter object\Calculos\ValorTransadoBruto_Tests.cs" />
+    <Compile Include="EstructuraDeDatos\4. Con parameter object\CodigoDeReferenciaParaInversion\ComoTexto_Tests.cs" />
+    <Compile Include="EstructuraDeDatos\4. Con parameter object\ImpuestoPagadoConTratamiento\ComoNumero_Tests.cs" />
+    <Compile Include="EstructuraDeDatos\4. Con parameter object\ImpuestoPagadoSinTratamiento\ComoNumero_Tests.cs" />
+    <Compile Include="EstructuraDeDatos\4. Con parameter object\RendimientoPorDescuentoConTratamiento\ComoNumero_Tests.cs" />
+    <Compile Include="EstructuraDeDatos\4. Con parameter object\RendimientoPorDescuentoSinTratamiento\ComoNumero_Tests.cs" />
+    <Compile Include="EstructuraDeDatos\4. Con parameter object\TasaBrutaConTratamiento\ComoNumero_Tests.cs" />
+    <Compile Include="EstructuraDeDatos\4. Con parameter object\TasaBrutaSinTratamiento\ComoNumero_Tests.cs" />
+    <Compile Include="EstructuraDeDatos\4. Con parameter object\TasaNetaConTratamiento\ComoNumero_Tests.cs" />
+    <Compile Include="EstructuraDeDatos\4. Con parameter object\TasaNetaSinTratamiento\ComoNumero_Tests.cs" />
+    <Compile Include="EstructuraDeDatos\4. Con parameter object\ValorTransadoBrutoConTratamiento\ComoNumero_Tests.cs" />
+    <Compile Include="EstructuraDeDatos\3. Con objetos\Calculos\CodigoDeReferencia_Tests.cs" />
+    <Compile Include="EstructuraDeDatos\3. Con objetos\Calculos\FechaDeValor_Tests.cs" />
+    <Compile Include="EstructuraDeDatos\3. Con objetos\Calculos\FechaDeVencimiento_Tests.cs" />
+    <Compile Include="EstructuraDeDatos\3. Con objetos\Calculos\ImpuestoPagado_Tests.cs" />
+    <Compile Include="EstructuraDeDatos\3. Con objetos\Calculos\RendimientoPorDescuento_Tests.cs" />
+    <Compile Include="EstructuraDeDatos\3. Con objetos\Calculos\TasaBruta_Tests.cs" />
+    <Compile Include="EstructuraDeDatos\3. Con objetos\Calculos\TasaNeta_Tests.cs" />
+    <Compile Include="EstructuraDeDatos\3. Con objetos\Calculos\ValorTransadoBruto_Tests.cs" />
+    <Compile Include="EstructuraDeDatos\2. Con funciones\Calculos\CodigoDeReferencia_Tests.cs" />
+    <Compile Include="EstructuraDeDatos\2. Con funciones\Calculos\FechaDeValor_Tests.cs" />
+    <Compile Include="EstructuraDeDatos\2. Con funciones\Calculos\FechaDeVencimiento_Tests.cs" />
+    <Compile Include="EstructuraDeDatos\2. Con funciones\Calculos\ImpuestoPagado_Tests.cs" />
+    <Compile Include="EstructuraDeDatos\2. Con funciones\Calculos\RendimientoPorDescuento_Tests.cs" />
+    <Compile Include="EstructuraDeDatos\2. Con funciones\Calculos\TasaBruta_Tests.cs" />
+    <Compile Include="EstructuraDeDatos\2. Con funciones\Calculos\TasaNeta_Tests.cs" />
+    <Compile Include="EstructuraDeDatos\2. Con funciones\Calculos\ValorTransadoBruto_Tests.cs" />
+    <Compile Include="EstructuraDeDatos\1. Como un procedimiento\Calculos\FechaDeVencimiento_Tests.cs" />
+    <Compile Include="EstructuraDeDatos\1. Como un procedimiento\Calculos\RendimientoPorDescuento_Tests.cs" />
+    <Compile Include="EstructuraDeDatos\1. Como un procedimiento\Calculos\TasaBruta_Tests.cs" />
+    <Compile Include="EstructuraDeDatos\1. Como un procedimiento\Calculos\ImpuestoPagado_Tests.cs" />
+    <Compile Include="EstructuraDeDatos\1. Como un procedimiento\Calculos\FechaDeValor_Tests.cs" />
+    <Compile Include="EstructuraDeDatos\1. Como un procedimiento\Calculos\ValorTransadoBruto_Tests.cs" />
+    <Compile Include="EstructuraDeDatos\1. Como un procedimiento\Calculos\TasaNeta_Tests.cs" />
+    <Compile Include="EstructuraDeDatos\1. Como un procedimiento\Calculos\CodigoDeReferencia_Tests.cs" />
+    <Compile Include="EstructuraDeDatos\3. Con objetos\CodigoDeReferenciaParaInversion\ComoTexto_Tests.cs" />
+    <Compile Include="EstructuraDeDatos\3. Con objetos\ImpuestoPagadoConTratamiento\ComoNumero_Tests.cs" />
+    <Compile Include="EstructuraDeDatos\3. Con objetos\ImpuestoPagadoSinTratamiento\ComoNumero_Tests.cs" />
+    <Compile Include="EstructuraDeDatos\3. Con objetos\RendimientoPorDescuentoConTratamiento\ComoNumero_Tests.cs" />
+    <Compile Include="EstructuraDeDatos\3. Con objetos\RendimientoPorDescuentoSinTratamiento\ComoNumero_Tests.cs" />
+    <Compile Include="EstructuraDeDatos\3. Con objetos\TasaBrutaConTratamiento\ComoNumero_Tests.cs" />
+    <Compile Include="EstructuraDeDatos\3. Con objetos\TasaBrutaSinTratamiento\ComoNumero_Tests.cs" />
+    <Compile Include="EstructuraDeDatos\3. Con objetos\TasaNetaConTratamiento\ComoNumero_Tests.cs" />
+    <Compile Include="EstructuraDeDatos\3. Con objetos\TasaNetaSinTratamiento\ComoNumero_Tests.cs" />
+    <Compile Include="EstructuraDeDatos\3. Con objetos\ValorTransadoBrutoConTratamiento\ComoNumero_Tests.cs" />
+    <Compile Include="GenerarInversion\7. Con inversion de dependencias\ConsecutivoComoTexto_Tests\ComoTexto_Test.cs" />
+    <Compile Include="GenerarInversion\7. Con inversion de dependencias\InversionFinal_Tests\FechaDeVencimiento_Test.cs" />
+    <Compile Include="GenerarInversion\7. Con inversion de dependencias\InversionFinal_Tests\FechaDeValor_Test.cs" />
+    <Compile Include="GenerarInversion\7. Con inversion de dependencias\InversionFinal_Tests\RendimientoPorDescuento_Test.cs" />
+    <Compile Include="GenerarInversion\7. Con inversion de dependencias\InversionFinal_Tests\ImpuestoPagado_Test.cs" />
+    <Compile Include="GenerarInversion\7. Con inversion de dependencias\InversionFinal_Tests\ValorTransadoBruto_Test.cs" />
+    <Compile Include="GenerarInversion\7. Con inversion de dependencias\InversionFinal_Tests\TasaBruta_Test.cs" />
+    <Compile Include="GenerarInversion\7. Con inversion de dependencias\InversionFinal_Tests\TasaNeta_Test .cs" />
+    <Compile Include="GenerarInversion\7. Con inversion de dependencias\InversionFinal_Tests\CodigoDeReferencia_Test.cs" />
+    <Compile Include="Impuesto\6. Con polimorfismo\ImpuestoConTratamientoFiscalRedondeado\Redondeado_Tests.cs" />
+    <Compile Include="Impuesto\6. Con polimorfismo\ImpuestoConTratamientoFiscal\Calculado_Tests.cs" />
+    <Compile Include="Impuesto\6. Con polimorfismo\Impuesto\CalculeElImpuesto_Tests.cs" />
+    <Compile Include="Impuesto\5. Con tell don%27t ask\ImpuestoConTratamientoFiscalRedondeado\Redondeado_Tests.cs" />
+    <Compile Include="Impuesto\5. Con tell don%27t ask\ImpuestoConTratamientoFiscal\Calculado_Tests.cs" />
+    <Compile Include="Impuesto\5. Con tell don%27t ask\Impuesto\CalculeElImpuesto_Tests.cs" />
+    <Compile Include="Impuesto\4. Con parameter object\ImpuestoConTratamientoFiscalRedondeado\Redondeado_Tests.cs" />
+    <Compile Include="Impuesto\4. Con parameter object\ImpuestoConTratamientoFiscal\Calculado_Tests.cs" />
+    <Compile Include="Impuesto\4. Con parameter object\Impuesto\CalculeElImpuesto_Tests.cs" />
+    <Compile Include="Impuesto\3. Con objetos\Impuesto\CalculeElImpuesto_Tests.cs" />
+    <Compile Include="Impuesto\2. Con funciones\Tests.cs" />
+    <Compile Include="Impuesto\1. Como un procedimiento\Tests.cs" />
+    <Compile Include="Impuesto\3. Con objetos\ImpuestoConTratamientoFiscalRedondeado\Redondeado_Tests.cs" />
+    <Compile Include="Impuesto\3. Con objetos\ImpuestoConTratamientoFiscal\Calculado_Tests.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RendimientoPorDescuento\1. Como un procedimiento\Tests.cs" />
+    <Compile Include="RendimientoPorDescuento\2. Con funciones\Tests.cs" />
+    <Compile Include="RendimientoPorDescuento\6. Con polimorfismo\DiasAlVencimiento\ComoNumero_Tests.cs" />
+    <Compile Include="RendimientoPorDescuento\6. Con polimorfismo\DiasDelAño\ComoNumero_Tests.cs" />
+    <Compile Include="RendimientoPorDescuento\6. Con polimorfismo\RendimientoPorDescuentos\CalculeElRendimientoPorDescuento_Tests.cs" />
+    <Compile Include="RendimientoPorDescuento\6. Con polimorfismo\TasaBruta\Calculado_Tests.cs" />
+    <Compile Include="RendimientoPorDescuento\6. Con polimorfismo\ValorTransadoBrutoConTratamientoFiscal\ComoNumero_Tests.cs" />
+    <Compile Include="RendimientoPorDescuento\5. Con tell don%27t ask\DiasAlVencimiento\ComoNumero_Tests.cs" />
+    <Compile Include="RendimientoPorDescuento\5. Con tell don%27t ask\RendimientosPorDescuento\CalculeElRendimientoPorDescuento_Tests.cs" />
+    <Compile Include="RendimientoPorDescuento\5. Con tell don%27t ask\TasaBruta\Calculado_Tests.cs" />
+    <Compile Include="RendimientoPorDescuento\5. Con tell don%27t ask\ValorTransadoBrutoConTratamientoFiscal\ComoNumero_Tests.cs" />
+    <Compile Include="RendimientoPorDescuento\4. Con parameter object\DiasAlVencimiento\ComoNumero_Tests.cs" />
+    <Compile Include="RendimientoPorDescuento\4. Con parameter object\RendimientosPorDescuento\CalculeElRendimientoPorDescuento_Tests.cs" />
+    <Compile Include="RendimientoPorDescuento\4. Con parameter object\TasaBruta\Calculado_Tests.cs" />
+    <Compile Include="RendimientoPorDescuento\4. Con parameter object\ValorTransadoBrutoConTratamientoFiscal\ComoNumero_Tests.cs" />
+    <Compile Include="RendimientoPorDescuento\3. Con objetos\RendimientoPorDescuentos\CalculeElRendimientoPorDescuento_Tests.cs" />
+    <Compile Include="RendimientoPorDescuento\3. Con objetos\DiasAlVencimiento\ComoNumero_Tests.cs" />
+    <Compile Include="RendimientoPorDescuento\3. Con objetos\TasaBruta\Calculado_Tests.cs" />
+    <Compile Include="RendimientoPorDescuento\3. Con objetos\ValorTransadoBrutoConTratamientoFiscal\ComoNumero_Tests.cs" />
+    <Compile Include="Validacion\5. Con tell don%27t ask\Datos\ComoBooleano_Tests.cs" />
+    <Compile Include="Validacion\4. Con parameter object\Datos\ComoBooleano_Tests.cs" />
+    <Compile Include="Validacion\3. Con objetos\Datos\ComoBooleano_Tests.cs" />
+    <Compile Include="Validacion\3. Con objetos\Validacion\VerifiqueLosDatos_Tests.cs" />
+    <Compile Include="Validacion\2. Con funciones\Tests.cs" />
+    <Compile Include="Validacion\1. Como un procedimiento\Tests.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\jcamposc889.Negocio\jcamposc889.Negocio.csproj">
+      <Project>{68cd91a6-f246-4091-b9ca-658d4c7ec974}</Project>
+      <Name>jcamposc889.Negocio</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Choose>
+    <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
+      <ItemGroup>
+        <Reference Include="Microsoft.VisualStudio.QualityTools.CodedUITestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+        <Reference Include="Microsoft.VisualStudio.TestTools.UITest.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+        <Reference Include="Microsoft.VisualStudio.TestTools.UITest.Extension, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+        <Reference Include="Microsoft.VisualStudio.TestTools.UITesting, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+      </ItemGroup>
+    </When>
+  </Choose>
+  <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

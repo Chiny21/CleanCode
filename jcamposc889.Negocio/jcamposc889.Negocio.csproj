@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{68CD91A6-F246-4091-B9CA-658D4C7EC974}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>jcamposc889.Negocio</RootNamespace>
+    <AssemblyName>jcamposc889.Negocio</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CodigosDeReferencia\2. Con funciones\Calculos.cs" />
+    <Compile Include="CodigosDeReferencia\5. Con tell don%27t ask\Año.cs" />
+    <Compile Include="CodigosDeReferencia\5. Con tell don%27t ask\CodigoDeReferencia.cs" />
+    <Compile Include="CodigosDeReferencia\5. Con tell don%27t ask\DatosParaElRequerimiento.cs" />
+    <Compile Include="CodigosDeReferencia\5. Con tell don%27t ask\Dia.cs" />
+    <Compile Include="CodigosDeReferencia\5. Con tell don%27t ask\DiaComoTexto.cs" />
+    <Compile Include="CodigosDeReferencia\5. Con tell don%27t ask\DigitoVerificador.cs" />
+    <Compile Include="CodigosDeReferencia\5. Con tell don%27t ask\Fecha.cs" />
+    <Compile Include="CodigosDeReferencia\5. Con tell don%27t ask\FuncionParaElDigitoVerificador.cs" />
+    <Compile Include="CodigosDeReferencia\5. Con tell don%27t ask\Mes.cs" />
+    <Compile Include="CodigosDeReferencia\5. Con tell don%27t ask\MesComoTexto.cs" />
+    <Compile Include="CodigosDeReferencia\5. Con tell don%27t ask\Requerimiento.cs" />
+    <Compile Include="CodigosDeReferencia\4. Con parameter object\Año.cs" />
+    <Compile Include="CodigosDeReferencia\4. Con parameter object\CodigoDeReferencia.cs" />
+    <Compile Include="CodigosDeReferencia\4. Con parameter object\Dia.cs" />
+    <Compile Include="CodigosDeReferencia\4. Con parameter object\DiaComoTexto.cs" />
+    <Compile Include="CodigosDeReferencia\4. Con parameter object\DigitoVerificador.cs" />
+    <Compile Include="CodigosDeReferencia\4. Con parameter object\Fecha.cs" />
+    <Compile Include="CodigosDeReferencia\4. Con parameter object\FuncionParaElDigitoVerificador.cs" />
+    <Compile Include="CodigosDeReferencia\4. Con parameter object\DatosParaElRequerimiento.cs" />
+    <Compile Include="CodigosDeReferencia\4. Con parameter object\Mes.cs" />
+    <Compile Include="CodigosDeReferencia\4. Con parameter object\MesComoTexto.cs" />
+    <Compile Include="CodigosDeReferencia\4. Con parameter object\Requerimiento.cs" />
+    <Compile Include="CodigosDeReferencia\3. Con objetos\Año.cs" />
+    <Compile Include="CodigosDeReferencia\3. Con objetos\Dia.cs" />
+    <Compile Include="CodigosDeReferencia\3. Con objetos\DiaComoTexto.cs" />
+    <Compile Include="CodigosDeReferencia\3. Con objetos\DigitoVerificador.cs" />
+    <Compile Include="CodigosDeReferencia\3. Con objetos\Fecha.cs" />
+    <Compile Include="CodigosDeReferencia\3. Con objetos\FuncionParaElDigitoVerificador.cs" />
+    <Compile Include="CodigosDeReferencia\3. Con objetos\CodigoDeReferencia.cs" />
+    <Compile Include="CodigosDeReferencia\3. Con objetos\Mes.cs" />
+    <Compile Include="CodigosDeReferencia\3. Con objetos\MesComoTexto.cs" />
+    <Compile Include="CodigosDeReferencia\3. Con objetos\Requerimiento.cs" />
+    <Compile Include="EstructuraDeDatos\6. Con polimorfismo\Objects\ImpuestoPagado360.cs" />
+    <Compile Include="EstructuraDeDatos\6. Con polimorfismo\Objects\CodigoDeReferenciaParaInversion.cs" />
+    <Compile Include="EstructuraDeDatos\6. Con polimorfismo\Objects\RendimientoPorDescuento360.cs" />
+    <Compile Include="EstructuraDeDatos\6. Con polimorfismo\Objects\TasaBruta360.cs" />
+    <Compile Include="EstructuraDeDatos\6. Con polimorfismo\Objects\TasaNeta360.cs" />
+    <Compile Include="EstructuraDeDatos\6. Con polimorfismo\Objects\ValorTransadoBruto360.cs" />
+    <Compile Include="EstructuraDeDatos\6. Con polimorfismo\Parameter Objects\DatosParaLaInversion.cs" />
+    <Compile Include="EstructuraDeDatos\6. Con polimorfismo\Objects\ImpuestoPagadoConTratamiento.cs" />
+    <Compile Include="EstructuraDeDatos\6. Con polimorfismo\Objects\ImpuestoPagadoSinTratamiento.cs" />
+    <Compile Include="EstructuraDeDatos\6. Con polimorfismo\Parameter Objects\DatosParaLaInversion360.cs" />
+    <Compile Include="EstructuraDeDatos\6. Con polimorfismo\Parameter Objects\DatosParaLaInversionConTratamiento.cs" />
+    <Compile Include="EstructuraDeDatos\6. Con polimorfismo\Parameter Objects\DatosParaLaInversionSinTratamiento.cs" />
+    <Compile Include="EstructuraDeDatos\6. Con polimorfismo\Parameter Objects\Inversion.cs" />
+    <Compile Include="EstructuraDeDatos\6. Con polimorfismo\Objects\RendimientoPorDescuentoConTratamiento.cs" />
+    <Compile Include="EstructuraDeDatos\6. Con polimorfismo\Objects\RendimientoPorDescuentoSinTratamiento.cs" />
+    <Compile Include="EstructuraDeDatos\6. Con polimorfismo\Objects\TasaBrutaConTratamiento.cs" />
+    <Compile Include="EstructuraDeDatos\6. Con polimorfismo\Objects\TasaBrutaSinTratamiento.cs" />
+    <Compile Include="EstructuraDeDatos\6. Con polimorfismo\Objects\TasaNetaConTratamiento.cs" />
+    <Compile Include="EstructuraDeDatos\6. Con polimorfismo\Objects\TasaNetaSinTratamiento.cs" />
+    <Compile Include="EstructuraDeDatos\6. Con polimorfismo\Objects\ValorTransadoBrutoConTratamiento.cs" />
+    <Compile Include="EstructuraDeDatos\5. Con tell don%27t ask\Calculos.cs" />
+    <Compile Include="EstructuraDeDatos\5. Con tell don%27t ask\CodigoDeReferenciaParaInversion.cs" />
+    <Compile Include="EstructuraDeDatos\5. Con tell don%27t ask\DatosParaLaInversion.cs" />
+    <Compile Include="EstructuraDeDatos\5. Con tell don%27t ask\ImpuestoPagadoConTratamiento.cs" />
+    <Compile Include="EstructuraDeDatos\5. Con tell don%27t ask\ImpuestoPagadoSinTratamiento.cs" />
+    <Compile Include="EstructuraDeDatos\5. Con tell don%27t ask\Inversion.cs" />
+    <Compile Include="EstructuraDeDatos\5. Con tell don%27t ask\RendimientoPorDescuentoConTratamiento.cs" />
+    <Compile Include="EstructuraDeDatos\5. Con tell don%27t ask\RendimientoPorDescuentoSinTratamiento.cs" />
+    <Compile Include="EstructuraDeDatos\5. Con tell don%27t ask\TasaBrutaConTratamiento.cs" />
+    <Compile Include="EstructuraDeDatos\5. Con tell don%27t ask\TasaBrutaSinTratamiento.cs" />
+    <Compile Include="EstructuraDeDatos\5. Con tell don%27t ask\TasaNetaConTratamiento.cs" />
+    <Compile Include="EstructuraDeDatos\5. Con tell don%27t ask\TasaNetaSinTratamiento.cs" />
+    <Compile Include="EstructuraDeDatos\5. Con tell don%27t ask\ValorTransadoBrutoConTratamiento.cs" />
+    <Compile Include="EstructuraDeDatos\4. Con parameter object\Calculos.cs" />
+    <Compile Include="EstructuraDeDatos\4. Con parameter object\CodigoDeReferenciaParaInversion.cs" />
+    <Compile Include="EstructuraDeDatos\4. Con parameter object\DatosParaLaInversion.cs" />
+    <Compile Include="EstructuraDeDatos\4. Con parameter object\ImpuestoPagadoConTratamiento.cs" />
+    <Compile Include="EstructuraDeDatos\4. Con parameter object\ImpuestoPagadoSinTratamiento.cs" />
+    <Compile Include="EstructuraDeDatos\4. Con parameter object\Inversion.cs" />
+    <Compile Include="EstructuraDeDatos\4. Con parameter object\RendimientoPorDescuentoConTratamiento.cs" />
+    <Compile Include="EstructuraDeDatos\4. Con parameter object\RendimientoPorDescuentoSinTratamiento.cs" />
+    <Compile Include="EstructuraDeDatos\4. Con parameter object\TasaBrutaConTratamiento.cs" />
+    <Compile Include="EstructuraDeDatos\4. Con parameter object\TasaBrutaSinTratamiento.cs" />
+    <Compile Include="EstructuraDeDatos\4. Con parameter object\TasaNetaConTratamiento.cs" />
+    <Compile Include="EstructuraDeDatos\4. Con parameter object\TasaNetaSinTratamiento.cs" />
+    <Compile Include="EstructuraDeDatos\4. Con parameter object\ValorTransadoBrutoConTratamiento.cs" />
+    <Compile Include="EstructuraDeDatos\3. Con objetos\Calculos.cs" />
+    <Compile Include="EstructuraDeDatos\3. Con objetos\CodigoDeReferenciaParaInversion.cs" />
+    <Compile Include="EstructuraDeDatos\3. Con objetos\ImpuestoPagadoConTratamiento.cs" />
+    <Compile Include="EstructuraDeDatos\3. Con objetos\ImpuestoPagadoSinTratamiento.cs" />
+    <Compile Include="EstructuraDeDatos\3. Con objetos\Inversion.cs" />
+    <Compile Include="EstructuraDeDatos\2. Con funciones\Calculos.cs" />
+    <Compile Include="EstructuraDeDatos\2. Con funciones\Inversion.cs" />
+    <Compile Include="EstructuraDeDatos\1. Como un procedimiento\Calculos.cs" />
+    <Compile Include="EstructuraDeDatos\1. Como un procedimiento\Inversion.cs" />
+    <Compile Include="EstructuraDeDatos\3. Con objetos\RendimientoPorDescuentoConTratamiento.cs" />
+    <Compile Include="EstructuraDeDatos\3. Con objetos\RendimientoPorDescuentoSinTratamiento.cs" />
+    <Compile Include="EstructuraDeDatos\3. Con objetos\TasaBrutaConTratamiento.cs" />
+    <Compile Include="EstructuraDeDatos\3. Con objetos\TasaBrutaSinTratamiento.cs" />
+    <Compile Include="EstructuraDeDatos\3. Con objetos\TasaNetaConTratamiento.cs" />
+    <Compile Include="EstructuraDeDatos\3. Con objetos\TasaNetaSinTratamiento.cs" />
+    <Compile Include="EstructuraDeDatos\3. Con objetos\ValorTransadoBrutoConTratamiento.cs" />
+    <Compile Include="GenerarInversion\7. Con inversion de dependencias\Objects\ConsecutivoComoTexto.cs" />
+    <Compile Include="GenerarInversion\7. Con inversion de dependencias\Objects\InversionFinal.cs" />
+    <Compile Include="GenerarInversion\7. Con inversion de dependencias\Parameter Objects\DatosParaLaFecha.cs" />
+    <Compile Include="GenerarInversion\7. Con inversion de dependencias\Parameter Objects\DatosParaLaInversionFinal.cs" />
+    <Compile Include="Impuesto\6. Con polimorfismo\ImpuestoConTratamientoFiscal.cs" />
+    <Compile Include="Impuesto\6. Con polimorfismo\ImpuestoConTratamientoFiscalRedondeado.cs" />
+    <Compile Include="Impuesto\5. Con tell don%27t ask\ImpuestoConTratamientoFiscal.cs" />
+    <Compile Include="Impuesto\5. Con tell don%27t ask\ImpuestoConTratamientoFiscalRedondeado.cs" />
+    <Compile Include="Impuesto\4. Con parameter object\Impuesto.cs" />
+    <Compile Include="Impuesto\4. Con parameter object\ImpuestoConTratamientoFiscal.cs" />
+    <Compile Include="Impuesto\4. Con parameter object\ImpuestoConTratamientoFiscalRedondeado.cs" />
+    <Compile Include="Impuesto\3. Con objetos\Impuesto.cs" />
+    <Compile Include="Impuesto\2. Con funciones\Calculos.cs" />
+    <Compile Include="Impuesto\1. Como un procedimiento\Calculos.cs" />
+    <Compile Include="Impuesto\3. Con objetos\ImpuestoConTratamientoFiscal.cs" />
+    <Compile Include="Impuesto\3. Con objetos\ImpuestoConTratamientoFiscalRedondeado.cs" />
+    <Compile Include="RendimientoPorDescuento\1. Como un procedimiento\Calculos.cs" />
+    <Compile Include="CodigosDeReferencia\1. Como un procedimiento\Calculos.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RendimientoPorDescuento\3. Con objetos\RendimientosPorDescuento.cs" />
+    <Compile Include="RendimientoPorDescuento\4. Con parameter object\RendimientosPorDescuento.cs" />
+    <Compile Include="RendimientoPorDescuento\5. Con tell don%27t ask\RendimientosPorDescuento.cs" />
+    <Compile Include="RendimientoPorDescuento\5. Con tell don%27t ask\DatosParaElRendimientoPorDescuento.cs" />
+    <Compile Include="RendimientoPorDescuento\5. Con tell don%27t ask\DatosParaLaTasaBruta.cs" />
+    <Compile Include="RendimientoPorDescuento\5. Con tell don%27t ask\DiasAlVencimiento.cs" />
+    <Compile Include="RendimientoPorDescuento\5. Con tell don%27t ask\TasaBruta.cs" />
+    <Compile Include="RendimientoPorDescuento\5. Con tell don%27t ask\ValorTransadoBrutoConTratamientoFiscal.cs" />
+    <Compile Include="RendimientoPorDescuento\4. Con parameter object\DatosParaElRendimientoPorDescuento.cs" />
+    <Compile Include="RendimientoPorDescuento\4. Con parameter object\DatosParaLaTasaBruta.cs" />
+    <Compile Include="RendimientoPorDescuento\4. Con parameter object\DiasAlVencimiento.cs" />
+    <Compile Include="RendimientoPorDescuento\4. Con parameter object\TasaBruta.cs" />
+    <Compile Include="RendimientoPorDescuento\4. Con parameter object\ValorTransadoBrutoConTratamientoFiscal.cs" />
+    <Compile Include="RendimientoPorDescuento\2. Con funciones\Calculos.cs" />
+    <Compile Include="RendimientoPorDescuento\3. Con objetos\DiasAlVencimiento.cs" />
+    <Compile Include="RendimientoPorDescuento\3. Con objetos\TasaBruta.cs" />
+    <Compile Include="RendimientoPorDescuento\3. Con objetos\ValorTransadoBrutoConTratamientoFiscal.cs" />
+    <Compile Include="RendimientoPorDescuento\6. Con polimorfismo\Objects\DiasAlVencimiento.cs" />
+    <Compile Include="RendimientoPorDescuento\6. Con polimorfismo\Objects\DiasDelAño.cs" />
+    <Compile Include="RendimientoPorDescuento\6. Con polimorfismo\Objects\RendimientosPorDescuento.cs" />
+    <Compile Include="RendimientoPorDescuento\6. Con polimorfismo\Objects\TasaBruta.cs" />
+    <Compile Include="RendimientoPorDescuento\6. Con polimorfismo\Objects\ValorTransadoBrutoConTratamientoFiscal.cs" />
+    <Compile Include="RendimientoPorDescuento\6. Con polimorfismo\Parameter Objects\DatosBaseDeInversion.cs" />
+    <Compile Include="RendimientoPorDescuento\6. Con polimorfismo\Parameter Objects\DatosDeInversion.cs" />
+    <Compile Include="RendimientoPorDescuento\6. Con polimorfismo\Parameter Objects\DatosDeInversion360.cs" />
+    <Compile Include="RendimientoPorDescuento\6. Con polimorfismo\Parameter Objects\DatosDeInversionConTratamientoFiscal.cs" />
+    <Compile Include="RendimientoPorDescuento\6. Con polimorfismo\Parameter Objects\DatosDeInversionSinTratamientoFiscal.cs" />
+    <Compile Include="Validacion\5. Con tell don%27t ask\Datos.cs" />
+    <Compile Include="Validacion\5. Con tell don%27t ask\DatosParaVerificar.cs" />
+    <Compile Include="Validacion\4. Con parameter object\Datos.cs" />
+    <Compile Include="Validacion\4. Con parameter object\DatosParaVerificar.cs" />
+    <Compile Include="Validacion\3. Con objetos\Validacion.cs" />
+    <Compile Include="Validacion\2. Con funciones\Calculos.cs" />
+    <Compile Include="Validacion\1. Como un procedimiento\Calculos.cs" />
+    <Compile Include="Validacion\3. Con objetos\Datos.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="EstructuraDeDatos\6. Con polimorfismo\DiagramaDeClases.cd" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

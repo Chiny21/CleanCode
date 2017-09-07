@@ -1,0 +1,1 @@
+﻿En este namespace, solo deberia quedar los parameter objects que acceden a los recursos externos (como DateTime.Now y los accesos a la base de datos).
